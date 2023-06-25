@@ -1,4 +1,4 @@
-Mini-Project: Credit Card Customer Churning
+**Mini-Project: Credit Card Customer Churning**
 
 Part 1 : Introduction
 
