@@ -1,23 +1,30 @@
-**Mini-Project: Credit Card Customer Churning**
+# **Mini-Project: Credit Card Customer Churning**
 
-Part 1 : Introduction
+## **Part 1 : Introduction**
 
 Customer Churn Rate คืออัตราที่ลูกค้าหยุดใช้บริการในช่วงระยะเวลาใดเวลาหนึ่ง ซึ่งมีผลในการดำเนินธุรกิจที่ต้องการรักษาลูกค้าให้ใช้บริการกับเราให้ยาวนานและมากที่สุด ดังนั้น การป้องกันการยกเลิกใช้บริการของลูกค้าจึงมีความสำคัญมาก โดยการนำ Data ที่เป็นฐานลูกค้า มาจัดเป็น Customer Segment ด้วย RFM Model ร่วมกับข้อมูล Demographic เพื่อทำการวิเคราะห์และวางแผนการทำ Marketing กับลูกค้าในแต่ละกลุ่มให้ได้ตรงตามเป้าหมายและมีประสิทธิภาพมากที่สุด
 
 ซึ่งชุดข้อมูลที่ใช้ในโปรเจคนี้ เป็นข้อมูลลูกค้า Consumer Credit Card Portfolio ของธนาคารแห่งหนึ่ง ที่ต้องการวิเคราะห์หาลูกค้าที่มีแนวโน้มจะยกเลิกการใช้บริการบัตรเครดิต เพื่อที่จะได้มอบการบริการที่ดีขึ้นและกระตุ้นการตัดสินใจของลูกค้าให้กลับมาใช้บริการอีกครั้ง
 
-ข้อมูล Dataset :
+**ข้อมูล Dataset :**
+
 kaggle : Predicting Credit Card Customer Segmentation
+
 Credit: The original authors – Data Source
+
 License: CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication
+
 No Copyright - You are allowed to copy, modify, distribute, and perform the work, even for commercial purposes, without the need for permission
 
-Hypothesis :
+**Hypothesis :**
+
 การพิจารณา Customer Segment โดย RFM Model ร่วมกับข้อมูล Demographic จะช่วยทำให้เข้าใจพฤติกรรมของลูกค้าได้ดียิ่งขึ้น โดยเฉพาะกลุ่ม “At risk”, “Can’t lose them” และ “Hibernating” ที่มีแนวโน้มจะเลิกใช้บริการ ทำให้สามารถปรับกลยุทธ์ทางการตลาดและเสนอสิทธิพิเศษให้กับลูกค้าในแต่ละกลุ่มได้อย่างเหมาะสม
 
 
-Part 2 : Exploration Data Analysis (EDA)
-2.1 Review Data: 
+## **Part 2 : Exploration Data Analysis (EDA)**
+
+**2.1 Review Data:**
+
 ข้อมูลลูกค้าทั้งหมด 10,127 ราย ประกอบด้วย 21 ตัวแปร ได้แก่
 Variable	Definition	Variable Group
 CLIENTNUM	รหัสลูกค้าธนาคาร	
