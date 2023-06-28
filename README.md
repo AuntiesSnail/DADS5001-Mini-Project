@@ -70,10 +70,26 @@ Avg_Utilization_Ratio	|ยอดการใช้จ่ายต่อวงเ
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/61273a0d-f84a-43de-9dc2-f0e9658218b6)
 
+>บางตัวแปรข้อมูลระบุ Unknown
+
+>>Education_Level มีอยู่ 1,519 ราย เป็น Attrited Customer 256 ราย
+
+>>Marital_Status มีอยู่ 749 ราย เป็น Attrited Customer 129 ราย
+
+>>Income_Category มีอยู่ 1,112 ราย เป็น Attrited Customer 187 ราย
+
+>Card_Category เป็นประเภท Blue เกือบทั้งหมดเลย มี 9,436 คน (93.18%)
+
 
 * **Numerical Data**
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/e471245b-e7cf-4db9-9da4-03acd6676aca)
+
+>ข้อมูลค่อนข้าง clean แต่ประเด็นที่น่าสงสัยคือ Avg_Utilization_Ratio เท่ากับ 0 คือลูกค้าไม่เคยใช้บัตรเลย มีอยู่ 2,470 คน แต่ที่ตัวแปร Months_on_book พบว่าเป็นลูกค้าใช้บริการมาแล้ว 13 เดือนขึ้นไปทุกคน และใช้บริการมากสุด 56 เดือน (เกือบ 5 ปี) แต่ไม่เคยใช้บัตร
+
+>ตัวแปร Attrition_Flag พบว่าลูกค้า ที่ Avg_Utilization_Ratio เท่ากับ 0 เป็น Attrited Customer 893 ราย ซึ่งมากกว่า 50.00 % ของ Attrited Customer ทั้งหมด
+
+>ตัวแปรส่วนใหญ่ เบ้ขวา
 
 
 **2.3 การวิเคราะห์ RFM Model:**
