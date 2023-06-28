@@ -1,6 +1,6 @@
 # **Mini-Project: Credit Card Customer Churning**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/7a645eda-04fc-4c90-9628-a9a540bc8fba)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/5f1bb246-3930-4940-b427-9df929fbad5f)
 
 ## **Part 1 : Introduction**
 
@@ -8,17 +8,18 @@ Customer Churn Rate คืออัตราที่ลูกค้าหยุ
 
 ซึ่งชุดข้อมูลที่ใช้ในโปรเจคนี้ เป็นข้อมูลลูกค้า Consumer Credit Card Portfolio ของธนาคารแห่งหนึ่ง ที่ต้องการวิเคราะห์หาลูกค้าที่มีแนวโน้มจะยกเลิกการใช้บริการบัตรเครดิต เพื่อที่จะได้มอบการบริการที่ดีขึ้นและกระตุ้นการตัดสินใจของลูกค้าให้กลับมาใช้บริการอีกครั้ง
 
-**ข้อมูล Dataset :**
 
-* kaggle : Predicting Credit Card Customer Segmentation
+**1.1 ข้อมูล Dataset :**
 
-* Credit: The original authors – Data Source
+>kaggle : Predicting Credit Card Customer Segmentation
 
-* License: CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication
+>Credit: The original authors – Data Source
 
-* No Copyright - You are allowed to copy, modify, distribute, and perform the work, even for commercial purposes, without the need for permission
+>License: CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication
 
-**Hypothesis :**
+>No Copyright - You are allowed to copy, modify, distribute, and perform the work, even for commercial purposes, without the need for permission
+
+**1.2 Hypothesis :**
 
 การพิจารณา Customer Segment โดย RFM Model ร่วมกับข้อมูล Demographic จะช่วยทำให้เข้าใจพฤติกรรมของลูกค้าได้ดียิ่งขึ้น โดยเฉพาะกลุ่ม “At risk”, “Can’t lose them” และ “Hibernating” ที่มีแนวโน้มจะเลิกใช้บริการ ทำให้สามารถปรับกลยุทธ์ทางการตลาดและเสนอสิทธิพิเศษให้กับลูกค้าในแต่ละกลุ่มได้อย่างเหมาะสม
 
@@ -29,54 +30,71 @@ Customer Churn Rate คืออัตราที่ลูกค้าหยุ
 
 ข้อมูลลูกค้าทั้งหมด 10,127 ราย ประกอบด้วย 21 ตัวแปร ได้แก่
 
-* CLIENTNUM		รหัสลูกค้าธนาคาร	
-* Attrition_Flag	แสดงสถานะการใช้บริการของลูกค้า	
-* Customer_Age		อายุลูกค้า	Data Demographic
-* Gender		เพศลูกค้า	Data Demographic
-* Dependent_count	จำนวนผู้ที่อยู่ในความอุปการะ	
-* Education_Level	ระดับการศึกษาDemographic
-* Marital_Status	สถานภาพสมรส	Demographic
-* Income_Category	ช่วงรายได้ของลูกค้า	Demographic
-* Card_Category	ประเภทบัตรของลูกค้า	
-* Months_on_book	จำนวนเดือนที่ลูกค้าใช้บริการ	
-* Total_Relationship_Count	จำนวนผลิตภัณฑ์ที่ลูกค้าถือครองกับธนาคาร	Demographic
-* Months_Inactive_12_mon	จำนวนเดือนที่ลูกค้าไม่มีการเคลื่อนไหว ใน 12 เดือนล่าสุด	
-* Contacts_Count_12_mon	จำนวนครั้งที่มีการติดต่อ ใน 12 เดือนล่าสุด	
-* Credit_Limit	วงเงินบัตรเครดิต	
-* Total_Revolving_Bal	ยอดค้างชำระ	
-* Avg_Open_To_Buy	วงเงินเครดิตที่พร้อมใช้สำหรับการซื้อสินค้าหรือทำธุรกรรมใหม่ (คำนวณค่าเฉลี่ยของวงเงินเครดิตที่เปิดให้ใช้งานในระยะเวลา 12 เดือน)	
-* Total_Amt_Chng_Q4_Q1	ยอดใช้จ่าย Q4 เทียบกับ Q1	
-* Total_Trans_Amt	ยอดใช้จ่ายทั้งหมด ใน 12 เดือนล่าสุด	
-* Total_Trans_Ct	จำนวนรายการทั้งหมด ใน 12 เดือนล่าสุด	
-* Total_Ct_Chng_Q4_Q1	จำนวนรายการ Q4 เทียบกับ Q1	
-* Avg_Utilization_Ratio	ยอดการใช้จ่ายต่อวงเงิน เป็นอัตราเท่าไหร่ กำหนดให้ 1 คือใช้จ่ายเต็มวงเงิน และ 0 คือไม่มีการใช้จ่าย คิดเป็นค่าเฉลี่ยจากทั้งหมด 	
+|Variable|Definition|Variable Group|
+|--------|--------|--------|
+CLIENTNUM|รหัสลูกค้าธนาคาร||	
+Attrition_Flag|	แสดงสถานะการใช้บริการของลูกค้า	
+Customer_Age|อายุลูกค้า|Demographic
+Gender|เพศลูกค้า|Demographic
+Dependent_count|จำนวนผู้ที่อยู่ในความอุปการะ	
+Education_Level|ระดับการศึกษา|	Demographic
+Marital_Status|สถานภาพสมรส|	Demographic
+Income_Category|	ช่วงรายได้ของลูกค้า|	Demographic
+Card_Category|	ประเภทบัตรของลูกค้า	
+Months_on_book	|จำนวนเดือนที่ลูกค้าใช้บริการ	
+Total_Relationship_Count|	จำนวนผลิตภัณฑ์ที่ลูกค้าถือครองกับธนาคาร	|Demographic
+Months_Inactive_12_mon|	จำนวนเดือนที่ลูกค้าไม่มีการเคลื่อนไหว ใน 12 เดือนล่าสุด	
+Contacts_Count_12_mon	|จำนวนครั้งที่มีการติดต่อ ใน 12 เดือนล่าสุด	
+Credit_Limit|	วงเงินบัตรเครดิต	
+Total_Revolving_Bal|	ยอดค้างชำระ	
+Avg_Open_To_Buy|	วงเงินเครดิตที่พร้อมใช้สำหรับการซื้อสินค้าหรือทำธุรกรรมใหม่ (คำนวณค่าเฉลี่ยของวงเงินเครดิตที่เปิดให้ใช้งานในระยะเวลา 12 เดือน)	
+Total_Amt_Chng_Q4_Q1	|ยอดใช้จ่าย Q4 เทียบกับ Q1	
+Total_Trans_Amt|	ยอดใช้จ่ายทั้งหมด ใน 12 เดือนล่าสุด	
+Total_Trans_Ct	|จำนวนรายการทั้งหมด ใน 12 เดือนล่าสุด	
+Total_Ct_Chng_Q4_Q1|	จำนวนรายการ Q4 เทียบกับ Q1	
+Avg_Utilization_Ratio	|ยอดการใช้จ่ายต่อวงเงิน เป็นอัตราเท่าไหร่ กำหนดให้ 1 คือใช้จ่ายเต็มวงเงิน และ 0 คือไม่มีการใช้จ่าย คิดเป็นค่าเฉลี่ยจากทั้งหมด 	
+
+**_Note:_**
+
+>1. จากข้อมูลทั้งหมด 23 ตัวแปร ซึ่งไม่มีตัวแปร Null และซึ่งไม่ใช้ตัวแปร Naive_Bayes1, Naive_Bayes2
+ 
+>2. มีจำนวนทั้งหมด 3 ตัวแปร ได้แก่ Education_Level, Marital_Status, Income_Category พบข้อมูล Unknown ที่ไม่บงบอกสถานะที่แท้จริง
 
 **2.2 Categorical and Numerical Variable:**
 
 ในข้อมูลตัวแปร Attrition_Flag มี Attrited Customer (ลูกค้าที่ยกเลิกบริการ) 1,627 ราย (16.07%) และ Existing Customer (ลูกค้าที่ยังใช้บริการ) 8,500 ราย (83.93%)
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/2a8dcbc7-a2a1-4e80-9712-0bb6af83fe73)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/9c66b2c9-28bd-4901-9c7d-c897a12a40f2)
+
+* **Categorical Data**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/61273a0d-f84a-43de-9dc2-f0e9658218b6)
+
+
+* **Numerical Data**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/e471245b-e7cf-4db9-9da4-03acd6676aca)
 
 
 **2.3 การวิเคราะห์ RFM Model:**
 
 RFM Analysis เป็น Model พื้นฐานเพื่อแบ่งกลุ่มลูกค้าหรือ Customer Segmentation ตามพฤติกรรมการใช้จ่าย โดยตัวแปรที่นำมาวิเคราะห์มี 3 ตัวแปรหลัก คือ R F และ M
 
-* Recency   (R) คือระยะเวลาที่ลูกค้าใช้งานบัตร ซึ่งจะใช้ตัวแปร Months_on_book 
-* Frequency (F) คือความถี่ในการใช้จ่ายของลูกค้า ซึ่งจะใช้ตัวแปร Total_Trans_C
-* Monetary  (M) คือยอดธุรกรรมทั้งหมด ซึ่งจะใช้ตัวแปร Total_Trans_Amt 
+  - Recency   (R) คือระยะเวลาที่ลูกค้าใช้งานบัตร ซึ่งจะใช้ตัวแปร Months_on_book 
+  - Frequency (F) คือความถี่ในการใช้จ่ายของลูกค้า ซึ่งจะใช้ตัวแปร Total_Trans_C
+  - Monetary  (M) คือยอดธุรกรรมทั้งหมด ซึ่งจะใช้ตัวแปร Total_Trans_Amt 
 
-*ตารางแสดงข้อมูลตัวอย่าง R F M*
+**_ตารางแสดงข้อมูลตัวอย่าง R F M_**
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/c0f8c169-57fb-48d7-8918-bbe1bde050bd)
 
-*การกำหนดเกณฑ์ให้คะแนน*
+**_การกำหนดเกณฑ์ให้คะแนน_**
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/4a84e2f8-0e61-4318-a938-525380c5b808)
 
 จากรูปเป็นการแบ่งตามหลักการ Quintile โดยจะกำหนดเกณฑ์คะแนนตั้งแต่ 1 ถึง 5 และแบ่งจำนวนลูกค้าออกเป็นทั้งหมด 5 ช่วง เพื่อให้คะแนนในแต่ละด้านของ RFM Model วิธีการแบ่งกลุ่มคือการทำ Binning จากผลลัพธ์ที่ได้จาก .groupby() ข้างต้น
 
-*ตารางแสดงข้อมูลตัวอย่าง Rank R F M*
+**_ตารางแสดงข้อมูลตัวอย่าง Rank R F M_**
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/20228d97-d64b-42f6-b7c1-d3a3331d9106)
 
@@ -88,17 +106,19 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 หลังจากนั้นจัดทำ Segment เพื่อครอบคลุมเงื่อนไข RFM ทั้งหมด 125 (5x5x5) รูปแบบ และแบ่ง Customer Segment  ได้ทั้งหมด 11 Segment ได้แก่
 
-* 01.Champions		Bought recently, buy often and spend the most
-* 02.Loyal Customers	Spend good money. Responsive to promotions
-* 03.Potential Loyalist	Recent customers, spent good amount, bought more than once
-* 04.Recent Customers	Bought more recently, but not often
-* 05.Promising		Recent shoppers, but haven’t spent much
-* 06.Need Attention	Above average recency, frequency & monetary values
-* 07.About to Sleep	Below average recency, frequency & monetary values
-* 08.At Risk		Spent big money, purchased often but long time ago
-* 09.Can’t Lose Them	Made big purchases and often, but long time ago
-* 10.Hibernating	Low spenders, low frequency, purchased long time ago
-* 11.Lost		Lowest recency, frequency & monetary scores
+|Segment|Description|
+|-------|-----------|
+01.Champions |Bought recently, buy often and spend the most
+02.Loyal Customers|	Spend good money. Responsive to promotions
+03.Potential Loyalist|	Recent customers, spent good amount, bought more than once
+04.Recent Customers	|Bought more recently, but not often
+05.Promising		|Recent shoppers, but haven’t spent much
+06.Need Attention|	Above average recency, frequency & monetary values
+07.About to Sleep	|Below average recency, frequency & monetary values
+08.At Risk		|Spent big money, purchased often but long time ago
+09.Can’t Lose Them	|Made big purchases and often, but long time ago
+10.Hibernating	|Low spenders, low frequency, purchased long time ago
+11.Lost		|Lowest recency, frequency & monetary scores
 
 ## **Part 3 : Insight**
 
