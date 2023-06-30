@@ -183,9 +183,8 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 
 
-**_กราฟแสดง Customer Segment (Scatter plot)_** 
+**_Focused Segment 8, 9, 10_** 
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/f6bebab1-da77-4e08-bdd8-16332a32cf0d)
 
 **_กราฟแสดงการเปรียบเทียบ Customer Segment 8,9 และ 10 กับ Segment อื่นๆ_**
 
