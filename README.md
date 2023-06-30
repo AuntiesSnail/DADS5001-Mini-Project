@@ -64,7 +64,7 @@ Avg_Utilization_Ratio	|ยอดการใช้จ่ายต่อวงเ
 
 ในข้อมูลตัวแปร Attrition_Flag มี Attrited Customer (ลูกค้าที่ยกเลิกบริการ) 1,627 ราย (16.07%) และ Existing Customer (ลูกค้าที่ยังใช้บริการ) 8,500 ราย (83.93%)
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/9c66b2c9-28bd-4901-9c7d-c897a12a40f2)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/079e7250-a130-47eb-a9dc-3da6ec44d755)
 
 * **Categorical Data**
 
