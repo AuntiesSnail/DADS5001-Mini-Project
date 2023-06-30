@@ -166,7 +166,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_กราฟแสดงค่าเฉลี่ยของยอดธุรกรรม_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/672fd73c-71b8-43e4-83d2-de5dd04c2d81)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/1b270528-6c88-47c6-8a80-cf9991fb030d)
 
 **_กราฟแสดง Customer Segment (Scatter plot)_** 
 
