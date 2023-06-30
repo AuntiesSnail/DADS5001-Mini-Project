@@ -166,10 +166,13 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/dc1c71e5-c343-4432-830a-a2ebb0cd1836)
 
 
+
 **_กราฟเพื่อดูความสัมพันธ์ของ Recency Frequency Monetary ในกลุ่มลูกค้าแต่ละ Segment_**
 
 
-![RFM](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/b6bb1517-bbaf-4325-8986-ae3cd2466ddb)
+
+![RFM](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/1ecaa137-c08d-41a1-8f8f-7f666d3106ef)
+
 
 
 
