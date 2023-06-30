@@ -108,7 +108,9 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_ตารางแสดงข้อมูลตัวอย่าง R F M_**
 
-![table](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/302b9230-88f2-484f-b6b1-0e8fa1d21679)
+
+![table](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/d56f17a9-7c2d-4035-aea5-5fe3b514e60b)
+
 
 
 **_การกำหนดเกณฑ์ให้คะแนน_**
