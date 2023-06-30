@@ -302,7 +302,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลวงเงิน**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/076c810d-757e-49c4-87a8-56a020e92b3a)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/ef70b185-b7c6-4336-b8fe-852bde319499)
 
 08.At risk, 09.Can’t lose them และ 10.Hibernating 
 
