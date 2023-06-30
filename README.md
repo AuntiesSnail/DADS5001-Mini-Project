@@ -155,7 +155,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/765163af-f632-42d4-846b-f40f459d0b89)
 
 
-## **Part 3 : Insight**
+## **Part 3 : Analyzing and Insight**
 
 **3.1 Visualization**
 
@@ -296,13 +296,16 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลจำนวนทำธุรกรรม และยอดธุรกรรม**
 
-**_แสดงข้อมูลจำนวนทำธุรกรรม กับ Segment_**
+**_แสดงข้อมูลจำนวนทำธุรกรรม กับ Segment 8, 9, 10_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/6bb82bce-fe29-4023-866a-b986863fc135)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/a19ee6db-016a-46f9-a272-c8f3e42f3151)
 
-**_แสดงข้อมูลยอดธุรกรรมกับ Segment_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/4b6ae928-75da-449a-8f8e-ece1563b1562)
+**_แสดงข้อมูลยอดธุรกรรมกับ Segment 8, 9, 10_**
+
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/915f3622-d50e-4243-afdd-c4b823dd86a1)
+
 
 08.At risk
 
@@ -323,7 +326,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_ภาพแสดงความสัมพันธ์ระหว่างเพศกับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/f8e300b9-f213-4d40-83e7-b7b86cb3f631)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/db89d250-f13a-4909-bd36-6d66e7270789)
 
 พบว่าลูกค้าที่ทำการปิดบัญชีส่วนใหญ่แล้วเป็นเพศหญิง ซึ่งเพศไม่ได้มีผลต่อการปิดบัญชีเนื่องจากมีสัดส่วนที่ใกล้เคียงกัน
 
@@ -359,7 +362,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_ภาพแสดงความสัมพันธ์ระหว่างระดับการศึกษาและรายได้ กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/709f26fb-0da5-4158-acf0-5f7f8f6eb7a1)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/7338798c-23ac-4cb4-b4fc-ed74824398b6)
 
 พบว่าลูกค้าส่วนใหญ่เป็นกลุ่มลูกค้าที่มีระดับรายได้น้อยกว่า $40K และมีระดับการศึกษาเป็นระดับปริญญา
 
@@ -377,33 +380,33 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_ภาพแสดงความสัมพันธ์ระหว่างวงเงิน กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/90e43313-5e5c-4449-95b0-1b7154c400ea)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/854e385a-dfd3-476e-a4e0-4091149f1a70)
 
 แสดงความสัมพันธ์ระหว่างวงเงิน กับการปิดบัญชีของลูกค้า ซึ่งจะเห็นได้ว่าส่วนใหญ่ที่ทำการปิดบัญชีจะมีระดับวงเงินที่น้อย
 
 **_ภาพแสดงความสัมพันธ์ระหว่างจำนวนผู้ที่อยู่ในความอุปการะ กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/6a48ea6e-069b-48c3-8e83-a477458ef5a2)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/1d9d9e44-96a7-4b1a-aa66-b9b0c5f9df01)
 
 แสดงความสัมพันธ์ระหว่างจำนวนผู้ที่อยู่ในความอุปการะ กับการปิดบัญชีของลูกค้า ลูกค้าที่มีการปิดบัญชีส่วนใหญ่จะมีจำนวนผู้ที่อยู่ในความอุปการะอยู่ที่ 3 คน แต่ภาพรวมจะมีการปิดบัญชีเป็นไปอย่างปกติ
 
 **_ภาพแสดงความสัมพันธ์ระหว่างจำนวนเดือนที่ลูกค้าใช้บริการ กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/98bbe053-2d95-4e51-a9b6-0a5be4916d4e)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/1a6dada5-575f-47a2-9c58-ac83267a7b54)
 
 แสดงความสัมพันธ์ระหว่างจำนวนเดือนที่ลูกค้าใช้บริการ กับการปิดบัญชีของลูกค้า พบว่าลูกค้าส่วนใหญ่ที่ปิดบัญชีจะเป็นกลุ่มลูกค้าที่ถือบัตรกับธนาคารมานานระดับหนึ่ง เป็นลูกค้าใหม่ค่อนข้างน้อย
 
 **_ภาพแสดงความสัมพันธ์ระหว่างยอดธุรกรรม กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/ae3d4f9f-40b2-4052-b1aa-f3aaa3cedcee)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/dda78725-1dbc-41bb-acc4-282605f91fbf)
 
 ลูกค้าที่ปิดบัญชีไปแล้วมีการกระจุกตัวไม่ได้มากนัก เมื่อเทียบกับลูกค้าที่ยังใช้บริการบัตรอยู่ถึงแม้ยอดธุรกรรมจะไม่มากนักแต่ก็ยังมีความถี่ในการทำธุรกรรมค่อนข้างสูง และจากกราฟพบว่าลูกค้าที่มีจำนวนธุรกรรมและยอดการใช้งานสูงจะไม่มีแนวโน้มการปิดบัตรเลย
 
 **_ภาพแสดงความสัมพันธ์ระหว่างจำนวนเดือนที่ลูกค้าไม่มีการเคลื่อนไหว และการติดต่อ ใน 12 เดือนล่าสุด กับการปิดบัญชีของลูกค้าภาพแสดงความสัมพันธ์ระหว่างจำนวนเดือนที่ลูกค้าไม่มีการเคลื่อนไหว และการติดต่อ ใน 12 เดือนล่าสุด กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/03f07f98-eed9-45ec-953c-49c328ef36dc)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/28b012d4-0b59-478a-8a0d-1f0a55f6122f)
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/031307e1-04f4-435e-a03e-8c6a2e4ff78e)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/06e87e13-b842-45c2-82fa-e8b1ae5201fe)
 
 ลูกค้าที่มีการทำธุรกรรมมานานและไม่มีการติดต่อมานานมีแนวโน้มที่จะเลิกใช้มากที่สุด
 
