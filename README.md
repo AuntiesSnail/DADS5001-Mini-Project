@@ -91,6 +91,10 @@ Avg_Utilization_Ratio	|ยอดการใช้จ่ายต่อวงเ
 
 >ตัวแปรส่วนใหญ่มีลักษณะ "เบ้ขวา" เช่น ข้อมูลรายได้ (Income) พบว่าลูกค้าส่วนใหญ่มีรายได้ค่อนข้างน้อย ทำให้การกระจายของข้อมูลส่วนใหญ่กระจุกตัวอยู่ทางซ้าย
 
+**_กราฟแสดง Customer Segment กับยอดธุรกรรมของ Attrited Customer_**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/b596c23d-3974-4332-aeb6-2fbf4c50af81)
+
 
 **2.3 การวิเคราะห์ RFM Model:**
 
@@ -118,9 +122,12 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 ถ้าหากมีค่า Frequency หรือมีความถี่ในการทำธุรกรรมบ่อยๆ จะถูกจัดอยู่ใน Binning ที่สูง (ไปในทิศทางเดียวกัน)  ส่วนค่าของ Monetary หรือยอดธุรกรรมมักจะสอดคล้องและไปเป็นในทิศทางเดียวกับค่า Frequency 
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/afe44d47-921a-417f-aa44-78f1e5cbdf2e)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/412375a7-2841-43b2-8424-3d196e58631f)
 
-หลังจากนั้นจัดทำ Segment เพื่อครอบคลุมเงื่อนไข RFM ทั้งหมด 125 (5x5x5) รูปแบบ และแบ่ง Customer Segment  ได้ทั้งหมด 11 Segment ได้แก่
+
+หลังจากนั้นจัดทำ Segment เพื่อครอบคลุมเงื่อนไข RFM ทั้งหมด 125 (5x5x5) รูปแบบ 
+
+และแบ่ง Customer Segment  ได้ทั้งหมด 11 Segment ได้แก่
 
 |Segment|Description|
 |-------|-----------|
@@ -186,10 +193,30 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลอายุ**
 
+**_แสดงกลุ่มอายุกับ Segment_**	
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/296d82e1-02af-408a-9fa4-87e10b676a90)
+
+**_แสดงอายุกับ Segment_**
+
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/b52153fd-558c-435f-8947-120268dca25b)
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/26dec728-15d6-44e8-8638-45975e05d949)
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/c5ea5ce7-432a-4bd9-912f-3a43bc0bdb3b)
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/5b1127ed-6a02-40fc-827e-647529953918)
+
+**_แสดงกลุ่มอายุของ Generation X กับ Segment_**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/0780d8c2-1966-4d6d-926b-4c51737c425d)
+
+**_แสดงกลุ่มอายุของ Generation Y กับ Segment_**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/d63c5169-b284-4d5d-9199-58daad9a9dc9)
+
+**_แสดงกลุ่มอายุของ Generation Z กับ Segment_**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/2d8eca4f-db7c-474e-91c1-43fde2148702)
+
+**_แสดงกลุ่มอายุของ Generation Baby Boomer กับ Segment_**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/6c357a00-bc8a-4bd1-a1fc-84dc59535f7c)
+
 
 08.At risk
 
@@ -202,6 +229,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 10.Hibernating
 
 ลูกค้าในกลุ่มนี้มีอายุเฉลี่ยที่ 46 ปี ซึ่งจัดเป็นกลุ่ม Generation X มากที่สุด เมื่อดูพฤติกรรมการใช้งานบัตรลูกค้ากลุ่มนี้เคยมีความถี่และยอดธุรกรรมไม่สูงมากและกระจุกเป็นกลุ่มที่สุด
+
 
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลเพศ**
