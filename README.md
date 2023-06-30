@@ -105,9 +105,11 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
   - Frequency (F) คือความถี่ในการใช้จ่ายของลูกค้า ซึ่งจะใช้ตัวแปร Total_Trans_C
   - Monetary  (M) คือยอดธุรกรรมทั้งหมด ซึ่งจะใช้ตัวแปร Total_Trans_Amt 
 
+
 **_ตารางแสดงข้อมูลตัวอย่าง R F M_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/c0f8c169-57fb-48d7-8918-bbe1bde050bd)
+![table](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/302b9230-88f2-484f-b6b1-0e8fa1d21679)
+
 
 **_การกำหนดเกณฑ์ให้คะแนน_**
 
