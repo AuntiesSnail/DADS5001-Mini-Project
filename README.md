@@ -193,9 +193,9 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลอายุ**
 
-**_แสดงกลุ่มอายุกับ Segment_**	
+**_แสดงกลุ่มอายุ (Generation) กับ Segment_**	
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/296d82e1-02af-408a-9fa4-87e10b676a90)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/055aada5-91cb-4452-9d8e-609fb0948966)
 
 **_แสดงอายุกับ Segment_**
 
