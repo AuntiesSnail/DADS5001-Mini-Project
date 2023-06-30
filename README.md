@@ -1,6 +1,7 @@
 # **Mini-Project: Credit Card Customer Churning**
 
-![INTRODUCTION2](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/5e36be63-fd71-42cc-ac61-357892546565)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/f58bdb8a-bb06-4593-ae38-888da814b33e)
+
 
 ## **Part 1 : Introduction**
 
