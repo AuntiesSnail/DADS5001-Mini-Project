@@ -212,9 +212,9 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/055aada5-91cb-4452-9d8e-609fb0948966)
 
-**_แสดงอายุกับ Segment_**
+**_แสดงอายุกับ Segment 8, 9, 10_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/b52153fd-558c-435f-8947-120268dca25b)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/7172f64a-5650-4e57-8515-ba3626adf021)
 
 
 08.At risk
