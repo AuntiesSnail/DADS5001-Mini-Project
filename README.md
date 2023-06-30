@@ -95,6 +95,7 @@ Avg_Utilization_Ratio	|ยอดการใช้จ่ายต่อวงเ
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/b596c23d-3974-4332-aeb6-2fbf4c50af81)
 
+พบว่าข้อมูลลูกค้าที่ยกเลิกการใช้บัตรไปแล้ว กลุ่มลูกค้า 10.Hibernating, 04.Recent Customers และ 8.At Risk เป็นกลุ่มลูกค้าที่เคยมียอดธุรกรรมกับทางธนาคารสูงที่สุด 3 อันดับแรกตามลำดับ
 
 **2.3 การวิเคราะห์ RFM Model:**
 
