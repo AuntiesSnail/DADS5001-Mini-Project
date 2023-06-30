@@ -122,8 +122,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 ถ้าหากมีค่า Frequency หรือมีความถี่ในการทำธุรกรรมบ่อยๆ จะถูกจัดอยู่ใน Binning ที่สูง (ไปในทิศทางเดียวกัน)  ส่วนค่าของ Monetary หรือยอดธุรกรรมมักจะสอดคล้องและไปเป็นในทิศทางเดียวกับค่า Frequency 
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/412375a7-2841-43b2-8424-3d196e58631f)
-
+![Range](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/4c6b7035-7989-4fc4-ae19-94139ba77077)
 
 หลังจากนั้นจัดทำ Segment เพื่อครอบคลุมเงื่อนไข RFM ทั้งหมด 125 (5x5x5) รูปแบบ 
 
