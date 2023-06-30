@@ -11,20 +11,20 @@ Customer Churn Rate คืออัตราที่ลูกค้าหยุ
 
 **1.1 ข้อมูล Dataset :**
 
->kaggle : Predicting Credit Card Customer Segmentation
+>kaggle : [Predicting Credit Card Customer Segmentation](https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m)
 
->Credit: The original authors – Data Source
+>Credit: The original authors – [Data Source](https://zenodo.org/record/4322342#.Y8OsBdJBwUE)
 
->License: CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication
+>License: [CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)
 
->No Copyright - You are allowed to copy, modify, distribute, and perform the work, even for commercial purposes, without the need for permission
+>*No Copyright - You are allowed to copy, modify, distribute, and perform the work, even for commercial purposes, without the need for permission.*
 
 **1.2 Hypothesis :**
 
 การพิจารณา Customer Segment โดย RFM Model ร่วมกับข้อมูล Demographic จะช่วยทำให้เข้าใจพฤติกรรมของลูกค้าได้ดียิ่งขึ้น โดยเฉพาะกลุ่ม “At risk”, “Can’t lose them” และ “Hibernating” ที่มีแนวโน้มจะเลิกใช้บริการ ทำให้สามารถปรับกลยุทธ์ทางการตลาดและเสนอสิทธิพิเศษให้กับลูกค้าในแต่ละกลุ่มได้อย่างเหมาะสม
 
 
-## **Part 2 : Exploration Data Analysis (EDA)**
+## **Part 2 : Exploratory Data Analysis (EDA)**
 
 **2.1 Review Data:**
 
