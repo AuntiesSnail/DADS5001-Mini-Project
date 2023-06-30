@@ -162,15 +162,23 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 * **RFM analysis**
 
 **_กราฟแสดง Customer Segment (Tree Map)_** 
+
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/dc1c71e5-c343-4432-830a-a2ebb0cd1836)
+
 
 **_กราฟเพื่อดูความสัมพันธ์ของ Recency Frequency Monetary ในกลุ่มลูกค้าแต่ละ Segment_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/d10587b6-7bda-4368-ba97-b0ca1b8cee9b)
+
+![RFM](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/b6bb1517-bbaf-4325-8986-ae3cd2466ddb)
+
+
 
 **_กราฟแสดงค่าเฉลี่ยของยอดธุรกรรม_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/dcfc630e-caa8-401a-b394-8789d5c4b3d2)
+
+![Heat](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/6e88823e-8550-4237-92db-3b3b0534bf07)
+
+
 
 **_กราฟแสดง Customer Segment (Scatter plot)_** 
 
@@ -270,7 +278,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลรายได้**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/99e2ddc0-4055-4bbe-9603-7f7755ad3b74)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/15d80947-04b8-4eea-81f3-d1f663071825)
 
 08.At risk
 
@@ -286,6 +294,8 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลวงเงิน**
+  
+**_แสดงข้อมูลวงเงินบัตรเครดิต กับ Segment 8, 9, 10_**
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/ef70b185-b7c6-4336-b8fe-852bde319499)
 
@@ -336,9 +346,9 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 พบว่า เมื่อพิจารณาอายุกับการปิดบัญชีของลูกค้า ลูกค้าที่ทำการปิดบัญชีนั้นไม่ว่าจะอายุเท่าไหร่ จะมีการปิดบัญชีไม่ได้แตกต่างกันมากนัก และอธิบายได้ว่าอายุของลูกค้ามีการใช้งานบัตรเครดิตและปิดบัญชีอย่างมีการแจงแจงแบบปกติ (Normal Distribution)
 
-**_ภาพแสดงความสัมพันธ์ระหว่างกลุ่มอายุ กับการปิดบัญชีของลูกค้า_**
+**_ภาพแสดงความสัมพันธ์ระหว่างกลุ่มอายุ (Generation) กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/425da319-ff80-45ec-84b6-b93477267f61)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/2cdf89f9-33f5-456b-afa9-195f3753d685)
 
 พบว่าในกลุ่มอายุที่ใช้งานสูงอย่าง Generation X , Y และจะมีการปิดบัญชีที่สูงด้วย ส่วน Baby Boomer มีการใช้งานน้อย แต่จะมีการปิดบัญชีที่สูงเท่าๆ กับ Generation  X , Y  สำหรับ Generation Z เป็นกลุ่มที่มีการใช้งานน้อยและมีการปิดบัญชีน้อยด้วยเช่นกัน
 
@@ -368,13 +378,13 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_ภาพแสดงความสัมพันธ์ระหว่างประเภทบัตร กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/6e21fc26-d04d-430d-b24b-9df32a403851)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/4831b7c0-d8c9-4b7d-ae44-c52de983dd85)
 
 พบว่าลูกส่วนใหญ่จะเป็นผู้ถือบัตรประเภท Blue ในขณะที่ลูกค้าที่ทำการปิดบัตรจะเป็นบัตรประเภท Platinum
 
 **_ภาพแสดงความสัมพันธ์ระหว่างรายได้ กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/a3d9f2fc-72a0-4d51-82e3-6fed9c960022)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/f5f55259-3295-44af-baab-d313cf0b54af)
 
 แสดงกลุ่มรายได้กับการปิดบัญชีของลูกค้า พบว่าลูกค้าทำการปิดบัญชี และใช้งานอยู่ จะมีช่วงรายได้ที่ค่อนข้างใกล้เคียงกัน 
 
