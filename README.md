@@ -399,7 +399,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_ภาพแสดงความสัมพันธ์ระหว่างวงเงิน กับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/854e385a-dfd3-476e-a4e0-4091149f1a70)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/7bd858a0-355b-42bf-a250-509b10a481dc)
 
 แสดงความสัมพันธ์ระหว่างวงเงิน กับการปิดบัญชีของลูกค้า ซึ่งจะเห็นได้ว่าส่วนใหญ่ที่ทำการปิดบัญชีจะมีระดับวงเงินที่น้อย
 
