@@ -217,6 +217,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_แสดงกลุ่มอายุ (Generation) กับ Segment_**	
 
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/1575e15b-734e-42f1-9d86-155a3d352074)
 
 
 **_แสดงอายุกับ Segment 8, 9, 10_**
