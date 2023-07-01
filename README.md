@@ -240,7 +240,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลเพศ**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/1c82be57-06be-4aa7-9819-d4a7a1e95ce0)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/45188727-2c73-4f7e-b8c4-e2e1f9c8e558)
 
 08.At risk
 
