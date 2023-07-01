@@ -142,6 +142,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 10.Hibernating	|Low spenders, low frequency, purchased long time ago
 11.Lost		|Lowest recency, frequency & monetary scores
 
+**วิธีการคำนวรคะแนน และการจัดกลุ่ม Customer Segment**
 **_Source:_** 
 >https://www.putler.com/rfm-analysis/ (a general rule with RFM analysis)
 
