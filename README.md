@@ -112,6 +112,9 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/4a84e2f8-0e61-4318-a938-525380c5b808)
 
+**_Source:_**  
+>วิธีทำ RFM Model Analysis เพื่อทำ Customer Segmentation จากพฤติกรรมการซื้อ (everydaymarketing.co)
+
 จากรูปเป็นการแบ่งตามหลักการ Quintile โดยจะกำหนดเกณฑ์คะแนนตั้งแต่ 1 ถึง 5 และแบ่งจำนวนลูกค้าออกเป็นทั้งหมด 5 ช่วง เพื่อให้คะแนนในแต่ละด้านของ RFM Model วิธีการแบ่งกลุ่มคือการทำ Binning จากผลลัพธ์ที่ได้จาก .groupby() ข้างต้น
 
 **_ตารางแสดงข้อมูลตัวอย่าง Rank R F M_**
