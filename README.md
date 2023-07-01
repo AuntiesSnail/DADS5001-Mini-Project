@@ -252,7 +252,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 * **การวิเคราะห์เกี่ยวกับข้อมูลระดับการศึกษา**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/e7b04d42-365c-4fb3-938d-1df99bde8870)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/fdba163f-ee4f-4ed6-898d-ccc2595aaf83)
 
 08.At risk
 
