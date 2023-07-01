@@ -186,6 +186,10 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 ![Heat](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/6e88823e-8550-4237-92db-3b3b0534bf07)
 
 
+**_กราฟแสดงความสัมพันธ์ระหว่าง Total Transaction Count และ Total Transaction Amount (Scatter Plot) _**
+
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/8f0f1552-4d3c-4ee0-ba40-476895b8af19)
+
 
 **_Focused Segment 8, 9, 10_** 
 
