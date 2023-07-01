@@ -149,7 +149,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 ![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/137598346/765163af-f632-42d4-846b-f40f459d0b89)
 
-**วิเคราะห์ข้อมูลในอดีตเบื้องต้นของ**
+**วิเคราะห์ข้อมูลในอดีตเบื้องต้นของลูกค้าที่ปิดบัญชี**
 
 **_กราฟแสดง Customer Segment กับยอดธุรกรรมของ Attrited Customer_**
 
