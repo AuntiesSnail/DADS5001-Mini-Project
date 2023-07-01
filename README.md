@@ -342,7 +342,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 
 **_ภาพแสดงความสัมพันธ์ระหว่างเพศกับการปิดบัญชีของลูกค้า_**
 
-![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/db89d250-f13a-4909-bd36-6d66e7270789)
+![image](https://github.com/AuntiesSnail/DADS5001-Mini-Project/assets/136181947/98fc4ba6-b795-4b7e-aab0-5edd7d46dee8)
 
 พบว่าลูกค้าที่ทำการปิดบัญชีส่วนใหญ่แล้วเป็นเพศหญิง ซึ่งเพศไม่ได้มีผลต่อการปิดบัญชีเนื่องจากมีสัดส่วนที่ใกล้เคียงกัน
 
