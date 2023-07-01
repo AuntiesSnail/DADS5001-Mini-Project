@@ -143,7 +143,7 @@ RFM Analysis เป็น Model พื้นฐานเพื่อแบ่ง
 11.Lost		|Lowest recency, frequency & monetary scores
 
 **_Source:_** 
->https://www.putler.com/rfm-analysis/
+>https://www.putler.com/rfm-analysis/ (a general rule with RFM analysis)
 
 **_กราฟแสดงความสัมพันธ์ระหว่าง Score Recency Frequency Monetary_**
 
